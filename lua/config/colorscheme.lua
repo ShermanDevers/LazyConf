@@ -1,0 +1,10 @@
+--return {
+--  { "Mofiqul/vscode.nvim", name = "vscode", lazy = true },
+--
+--  {
+--    "LazyVim/LazyVim",
+--    opts = {
+--      colorscheme = "vscode",
+--    },
+--  },
+--}
