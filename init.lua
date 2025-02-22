@@ -23,13 +23,14 @@ vim.keymap.set("n", "<tab><Right>", "<cmd>1bnext<cr>")
 vim.keymap.set("n", "<tab><Left>", "<cmd>1bprev<cr>")
 vim.keymap.set("n", "<tab>,", "<C-W>h")
 vim.keymap.set("n", "<tab>.", "<C-W>l")
+vim.keymap.set("n", "<C-BS>", "<C-W>")
 
 -- Extra Config
-vim.g.lazyvim_prettier_needs_config = false
-vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-  pattern = { "*" },
-  command = [[%s/\s\+$//e]],
-})
+--vim.g.lazyvim_prettier_needs_config = false
+--vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+--  pattern = { "*" },
+--  command = [[%s/\s\+$//e]],
+--})
 
 -- Custom Commands
 vim.api.nvim_create_user_command("Livegrep", "Telescope live_grep", {})
