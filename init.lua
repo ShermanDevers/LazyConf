@@ -15,14 +15,14 @@ vim.call("plug#end")
 vim.cmd("colorscheme vscode")
 
 -- Custom Keymaps
-vim.keymap.set("n", "<C>h", "")
-vim.keymap.set("n", "<C>l", "")
+--vim.keymap.set("n", "<C>h", "")
+--vim.keymap.set("n", "<C>l", "")
 vim.keymap.set("n", "<F3>", "<cmd>Neotree toggle<cr>")
 vim.keymap.set("n", "<F12>", "<cmd>lua Snacks.dashboard()<cr>")
-vim.keymap.set("n", "<tab><Right>", "<cmd>1bnext<cr>")
-vim.keymap.set("n", "<tab><Left>", "<cmd>1bprev<cr>")
-vim.keymap.set("n", "<tab>,", "<C-W>h")
-vim.keymap.set("n", "<tab>.", "<C-W>l")
+vim.keymap.set("n", "<tab><Right>", "<C-H>")
+vim.keymap.set("n", "<tab><Left>", "<C-H>")
+vim.keymap.set("n", "<C>,", "<C>h")
+vim.keymap.set("n", "<C>.", "<C>l")
 -- vim.keymap.set("i", "<C-h>", "<C-W>")
 
 -- Extra Config
