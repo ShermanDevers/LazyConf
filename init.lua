@@ -8,7 +8,7 @@ vim.opt.termguicolors = true
 vim.opt.autochdir = true
 
 local Plug = vim.fn["plug#"]
-vim.cmd("PlugInstall vscode")
+--vim.cmd("PlugInstall vscode")
 vim.call("plug#begin")
 Plug("Mofiqul/vscode.nvim")
 vim.call("plug#end")
