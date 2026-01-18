@@ -12,6 +12,7 @@ local Plug = vim.fn["plug#"]
 vim.call("plug#begin")
 Plug("Mofiqul/vscode.nvim")
 vim.call("plug#end")
+vim.cmd("PlugInstall vscode")
 vim.cmd("colorscheme vscode")
 
 -- Custom Keymaps
