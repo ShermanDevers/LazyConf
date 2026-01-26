@@ -16,14 +16,8 @@ vim.cmd("PlugInstall vscode")
 vim.cmd("colorscheme vscode")
 
 -- Custom Keymaps
---vim.keymap.set("n", "<C>h", "")
---vim.keymap.set("n", "<C>l", "")
 vim.keymap.set("n", "<F3>", "<cmd>Neotree toggle<cr>")
 vim.keymap.set("n", "<F12>", "<cmd>lua Snacks.dashboard()<cr>")
-vim.keymap.set("n", "<tab><Right>", "<C-H>")
-vim.keymap.set("n", "<tab><Left>", "<C-H>")
-vim.keymap.set("n", "<C>,", "<C>h")
-vim.keymap.set("n", "<C>.", "<C>l")
 -- vim.keymap.set("i", "<C-h>", "<C-W>")
 
 -- Extra Config
